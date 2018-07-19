@@ -11,16 +11,30 @@ import {
   Text,
   View,
 } from 'react-native';
-import { StackNavigator } from 'react-navigation';
-import {LoginStack, AppStack} from './components/navigation/navigators.js';
+//import { StackNavigator } from 'react-navigation';
+//import {LoginStack, AppStack} from './components/navigation/navigators.js';
 
-const App = StackNavigator({
-    LoginStack: {screen: LoginStack},
-    AppStack: {screen: AppStack},
-},{
-    headerMode: 'screen',
-    mode: 'modal',
-})
+//const App = StackNavigator({
+//    LoginStack: {screen: LoginStack},
+//    AppStack: {screen: AppStack},
+//},{
+//    headerMode: 'screen',
+//    mode: 'modal',
+//})
 
-export default App;
-AppRegistry.registerComponent('App', () => App);
+//export default App;
+//AppRegistry.registerComponent('App', () => App);
+
+import LoginPage from "./components/screens/Login/index.js";
+
+export default class GiftRapt extends Component{
+    constructor() {
+        super();
+        this.state = {
+          isReady: false
+        };
+    }
+    render() {
+        return <LoginPage {...this.props}/>;
+    }
+}

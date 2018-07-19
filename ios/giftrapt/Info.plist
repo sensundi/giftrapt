@@ -51,6 +51,20 @@
         </dict>
       </dict>
     </dict>
+    <key>UIAppFonts</key>
+    <array>
+      <string>Entypo.ttf</string>
+      <string>EvilIcons.ttf</string>
+      <string>Feather.ttf</string>
+      <string>FontAwesome.ttf</string>
+      <string>Foundation.ttf</string>
+      <string>Ionicons.ttf</string>
+      <string>MaterialCommunityIcons.ttf</string>
+      <string>MaterialIcons.ttf</string>
+      <string>Octicons.ttf</string>
+      <string>SimpleLineIcons.ttf</string>
+      <string>Zocial.ttf</string>
+    </array>
     <key>CFBundleURLTypes</key>
     <array>
       <dict>
@@ -64,5 +78,12 @@
     <string>389622024780343</string>
     <key>FacebookDisplayName</key>
     <string>MySecondApp</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>fbapi</string>
+      <string>fb-messenger-share-api</string>
+      <string>fbauth2</string>
+      <string>fbshareextension</string>
+    </array>
   </dict>
 </plist>

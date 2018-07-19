@@ -43,28 +43,18 @@ const styles = StyleSheet.create({
         textAlign: 'center',
     },
     ggButton: {
-        marginBottom: 5,
-        marginTop: 5,
-        width: 260,
-    alignItems: 'center',
+        marginTop: 10,
         backgroundColor: 'rgb(75,146,49)'
     },
     fbButton: {
-        marginBottom: 5,
-        marginTop: 5,
-        width: 260,
-        alignItems: 'center',
+        marginTop: 10,
         backgroundColor: 'rgb(43,76,186)'
     },
     gButton: {
-        marginBottom: 5,
-        marginTop: 5,
-        width: 260,
-        alignItems: 'center',
+        marginTop: 10,
         backgroundColor: 'rgb(197,45,33)'
     },
     buttonText: {
-        padding: 20,
         color: 'white'
     },
     universalFont: {
