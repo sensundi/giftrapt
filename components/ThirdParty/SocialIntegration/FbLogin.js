@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View } from 'react-native';
-import { LoginButton } from 'react-native-fbsdk';
+import { LoginButton, LoginManager,AccessToken } from 'react-native-fbsdk';
 
 export default class FBLoginButton extends Component {
   render() {
@@ -20,7 +20,8 @@ export default class FBLoginButton extends Component {
               }
             }
           }
-          onLogoutFinished={() => alert("User logged out")} width="260"/>
+          onLogoutFinished={() => {LoginManager.setLoginBehavior("web");console.log("User logged out");}}
+          width="350" />
       </View>
     );
   }

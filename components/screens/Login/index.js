@@ -6,8 +6,8 @@ import SideBar from "../../navigation/SideBar/SideBar.js";
 import { DrawerNavigator } from "react-navigation";
 const HomeScreenRouter = DrawerNavigator(
   {
-    Home: { screen: LoginPage },
-    Chat: { screen: MainScreenNavigator },
+    Login: { screen: LoginPage },
+    Catalog: { screen: MainScreenNavigator },
     Profile: { screen: Profile }
   },
   {
